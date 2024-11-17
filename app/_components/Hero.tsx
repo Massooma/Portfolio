@@ -47,7 +47,7 @@ export const Hero = () => {
             {/* Profile Picture Section */}
             <div className="flex-[2] max-md:m-auto ml-auto">
                 <img
-                    src="/images/Mukhtar_Masooma_Photo.jpg"
+                    src="/Portefolio/images/Mukhtar_Masooma_Photo.jpg"
                     className="w-60 h-60 object-cover rounded-full mx-auto ml-8 max-md:w-56"
                     alt="Masooma's portrait"
                 />
