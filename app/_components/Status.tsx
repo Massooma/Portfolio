@@ -44,10 +44,10 @@ export const Status = () => {
                 <Card className="p-4 flex-1">
                     <p className="text-lg text-muted-foreground"> Contact me</p>
                     <Link href = "https://www.linkedin.com/in/masooma-mukhtar/">
-                        <ContactCard name="LinkedIn" image="/images/Mukhtar_Masooma_Photo.jpg" mediumImage="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png" description="Dm me!"/>
+                        <ContactCard name="LinkedIn" image="https://massooma.github.io/Portefolio/images/Mukhtar_Masooma_Photo.jpg" mediumImage="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png" description="Dm me!"/>
                     </Link>
                     <Link href = "mailto:mukhtar.masooma@gmail.com">
-                        <ContactCard name="E-mail" image="/images/MUKHTAR_Masooma_Photo_2.png" mediumImage="https://download.logo.wine/logo/Gmail/Gmail-Logo.wine.png" description="Send me an email!"/>
+                        <ContactCard name="E-mail" image="https://massooma.github.io/Portefolio/images/MUKHTAR_Masooma_Photo_2.png" mediumImage="https://download.logo.wine/logo/Gmail/Gmail-Logo.wine.png" description="Send me an email!"/>
                     </Link>
                 </Card>
             </div>

@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/Portefolio',  // Nom du répertoire pour GitHub Pages
-  assetPrefix: '/Portefolio/', // Pour les fichiers statiques
-  output: 'export',  // Active l'exportation statique
+  basePath: process.env.NODE_ENV === 'production' ? '/Portefolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Portefolio/' : '',
+  output: 'export',  // Assurez-vous que cela est bien activé
 };
 
 export default nextConfig;
