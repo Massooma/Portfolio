@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 import { Card } from "@/components/ui/card";
-import { Home, Code, LucideIcon, ListTodo, Paintbrush, BadgeDollarSign, ArrowUpRight, Boxes, Gamepad2 } from "lucide-react"; // Assurez-vous que ArrowUpright est bien importé
+import { LucideIcon, ListTodo, Paintbrush, BadgeDollarSign, ArrowUpRight, Boxes, Gamepad2 } from "lucide-react"; // Assurez-vous que ArrowUpright est bien importé
 import Link from "next/link";
 
 export const Status = () => {

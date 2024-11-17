@@ -1,10 +1,8 @@
 import React from "react";
-import {PropsWithChildren} from "react"
 import { Section } from "./Section";
 import {GithubIcon} from "./icons/GithubIcon";
 import {LinkedinIcon} from "./icons/LinkedinIcon";
 import {GmailIcon} from "./icons/GmailIcon";
-import { Button } from "@/components/ui/button"
 import {buttonVariants} from "@/components/ui/button";
 import Link from "next/link";
 import {cn} from "@/lib/utils";
