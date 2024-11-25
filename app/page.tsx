@@ -10,9 +10,9 @@ export default function Home() {
         <Spacing size ="md"/>
         <Hero />
         <Spacing size = "md"/>
-        <Status/>
-        <Spacing size = "md"/>
         <Skills />
+        <Spacing size = "md"/>
+        <Status/>
         <Spacing size = "md"/>
 
     </main>

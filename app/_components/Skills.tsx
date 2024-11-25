@@ -18,8 +18,7 @@ export const Skills = () => {
               <h3 className="text-2xl font-semibold tracking-tight">JAVA</h3>
               <p className="text-sm text-muted-foreground">
                 My Java expertise includes developing tools for optical systems in a R&D team, creating equipment
-                drivers, and automating test bench configurations. I have learnt the
-                 ability to deliver effective software solutions.            </p>
+                drivers, and automating test bench configurations. I deliver effective software solutions.            </p>
             </div>
 
             <div className="flex flex-col gap-2">
@@ -27,7 +26,7 @@ export const Skills = () => {
 
                 <h3 className="text-2xl font-semibold tracking-tight">Qt/C++</h3>
                 <p className="text-sm text-muted-foreground">
-                I can build modern interfaces and robust desktop applications.
+                I build modern interfaces and robust desktop applications.
                 I have migrated a VBA project to Qt/C++, created tools like
                 financial trackers and task managers, prioritizing intuitive design and reliability.
                 </p>
