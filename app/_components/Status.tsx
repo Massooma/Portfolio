@@ -148,7 +148,8 @@ const WORKS: WorkProps[] = [
         url: "https://www.contexte.com",
     },
     {
-        image: "https://media.licdn.com/dms/image/v2/C4E0BAQEB4PABK9P_UQ/company-logo_200_200/company-logo_200_200/0/1630628514471/asn_comm_logo?e=1740009600&v=beta&t=6MjueTwK-OHnr8M4bv1BaR350rESLwRv0B9mxw1Pkio",
+        //image: "https://media.licdn.com/dms/image/v2/C4E0BAQEB4PABK9P_UQ/company-logo_200_200/company-logo_200_200/0/1630628514471/asn_comm_logo?e=1740009600&v=beta&t=6MjueTwK-OHnr8M4bv1BaR350rESLwRv0B9mxw1Pkio",
+        image: "https://www.asn.com/wp-content/uploads/2023/10/cropped-cropped-asn_logo.png",
         title: "Alcatel Submarine Networks",
         role: "Software developer",
         date: "2019-2022",
