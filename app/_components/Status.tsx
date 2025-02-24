@@ -141,7 +141,7 @@ const SideProject = (props: SideProjectProps) => {
 const WORKS: WorkProps[] = [
     {
         //image: "https://media.licdn.com/dms/image/v2/D4E0BAQG4gw8glJxVNg/company-logo_200_200/company-logo_200_200/0/1699537012040/contexte_sas_logo?e=1740009600&v=beta&t=553EPHhMen5-euCxDe1Xp2Wlye1KKcPIxn_9jbRY5OQ",
-        image: "https://media.licdn.com/dms/image/v2/D4E0BAQG4gw8glJxVNg/company-logo_200_200/company-logo_200_200/0/1699537012040/contexte_sas_logo?e=1748476800&v=beta&t=J8PXXwTqNBJvKACT4g9iBt-T1z8IXYe1_PWgUMxSSrU"
+        image: "https://media.licdn.com/dms/image/v2/D4E0BAQG4gw8glJxVNg/company-logo_200_200/company-logo_200_200/0/1699537012040/contexte_sas_logo?e=1748476800&v=beta&t=J8PXXwTqNBJvKACT4g9iBt-T1z8IXYe1_PWgUMxSSrU",
         title: "Contexte",
         role: "Software developer",
         date: "2023",
