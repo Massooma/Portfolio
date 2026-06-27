@@ -142,8 +142,7 @@ const SideProject = (props: SideProjectProps) => {
 
 export const WORKS: WorkProps[] = [
     {
-        //image: "https://media.licdn.com/dms/image/v2/D4E0BAQG4gw8glJxVNg/company-logo_200_200/company-logo_200_200/0/1699537012040/contexte_sas_logo?e=1740009600&v=beta&t=553EPHhMen5-euCxDe1Xp2Wlye1KKcPIxn_9jbRY5OQ",
-        image: "https://media.licdn.com/dms/image/v2/D4E0BAQG4gw8glJxVNg/company-logo_200_200/company-logo_200_200/0/1699537012040/contexte_sas_logo?e=1748476800&v=beta&t=J8PXXwTqNBJvKACT4g9iBt-T1z8IXYe1_PWgUMxSSrU",
+        image: "https://www.contexte.com/static/ui/base/images/logos/contexte-opengraph.2aa9117e6e2c.png",
         title: "Contexte",
         role: "Software developer",
         date: "2023",
@@ -151,9 +150,9 @@ export const WORKS: WorkProps[] = [
         /*url: "/work_experience/contexte",*/
         slug: "contexte",
         details: {
-            context: "Contexte est une entreprise",
-            method: "J'ai utilisé la méthode",
-            results: "les resultats etait bien"
+            context: "Contexte est un media en ligne",
+            method: "J'ai réalisé de la R&D",
+            results: "Script python qui transcrit des vidéos et effectue une recherche intelligente sur celles ci"
         }
     },
     {

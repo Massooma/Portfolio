@@ -7,7 +7,7 @@ const WorkDetail = () => {
   return (
     <div>
       <h1>Détails du travail : {slug}</h1>
-      {/* Ici tu affiches les détails du travail selon le slug */}
+      {/* les détails du travail selon le slug */}
     </div>
   );
 };
