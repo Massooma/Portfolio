@@ -31,7 +31,7 @@ export const Hero = () => {
                     I am currently learning <Code>React</Code> and <Code>Next.js</Code>. Based in{" "}
                         <Code className="inline-flex items-center gap-1">
                             <img
-                                src="https://www.coloriageetdessins.com/images/apprendre/ce-que-vous-devez-savoir-sur-le-drapeau-francais-885x478.jpg"
+                                src="https://th.bing.com/th/id/R.8a44fb08d11752d187cbfd4cb0e1d8f5?rik=ajDoeTg1VOTheQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fFrench-Flag-Background.jpg&ehk=PsIgD0dQU5umyW1t9HauhLJg889j0K8w4VTZ6vr82No%3d&risl=&pid=ImgRaw&r=0"
                                 className="w-4 h-4 rounded-sm"
                                 alt="France flag"
                             />{" "}
