@@ -31,13 +31,13 @@ export const Hero = () => {
                     I am currently learning <Code>React</Code> and <Code>Next.js</Code>. Based in{" "}
                         <Code className="inline-flex items-center gap-1">
                             <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/220px-Flag_of_France.svg.png"
+                                src="https://www.coloriageetdessins.com/images/apprendre/ce-que-vous-devez-savoir-sur-le-drapeau-francais-885x478.jpg"
                                 className="w-4 h-4 rounded-sm"
                                 alt="France flag"
                             />{" "}
 
                         </Code>
-                        France, I am looking for an international experience.<br />
+                        France, I am looking for new opportunities.<br />
                         I love watching animes {" "}
                          <Code className="inline-flex items-center gap-1">
                                 <img

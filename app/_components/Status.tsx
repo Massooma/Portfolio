@@ -36,7 +36,9 @@ export const Status = () => {
                                 title={work.title}
                                 role={work.role}
                                 date={work.date}
-                                url={work.url}
+                                /*url={work.url}*/
+                                slug={`/work_experience/${work.slug}`}
+                                details={work.details}
                             />
                         ))}
                     </div>
@@ -138,20 +140,33 @@ const SideProject = (props: SideProjectProps) => {
     );
 };
 
-const WORKS: WorkProps[] = [
+export const WORKS: WorkProps[] = [
     {
         image: "https://media.licdn.com/dms/image/v2/D4E0BAQG4gw8glJxVNg/company-logo_200_200/company-logo_200_200/0/1699537012040/contexte_sas_logo?e=1740009600&v=beta&t=553EPHhMen5-euCxDe1Xp2Wlye1KKcPIxn_9jbRY5OQ",
         title: "Contexte",
         role: "Software developer",
         date: "2023",
-        url: "https://www.contexte.com",
+        /*url: "https://www.contexte.com",*/
+        /*url: "/work_experience/contexte",*/
+        slug: "contexte",
+        details: {
+            context: "Contexte est une entreprise",
+            method: "J'ai utilisé la méthode",
+            results: "les resultats etait bien"
+        }
     },
     {
         image: "https://media.licdn.com/dms/image/v2/C4E0BAQEB4PABK9P_UQ/company-logo_200_200/company-logo_200_200/0/1630628514471/asn_comm_logo?e=1740009600&v=beta&t=6MjueTwK-OHnr8M4bv1BaR350rESLwRv0B9mxw1Pkio",
         title: "Alcatel Submarine Networks",
         role: "Software developer",
         date: "2019-2022",
-        url: "https://www.asn.com/"
+        /*url: "https://www.asn.com/"*/
+        slug: "alcatel-submarine-networks", // Ajoutez cette ligne
+        details: {
+            context: "Alcatel Submarine Networks est une entreprise de télécommunications",
+            method: "J'ai utilisé des outils modernes de développement logiciel",
+            results: "Optimisation des processus internes"
+        }
     }
 ]
 
@@ -161,14 +176,21 @@ type WorkProps = {
     title: string;
     role: string;
     date: string;
-    url: string;
+    slug: string;
+    details: { // Ajoutez cette section pour les détails du travail
+        context: string;
+        method: string;
+        results: string;
+    };
+
 };
 
 // Composant Work
 const Work = (props: WorkProps) => {
     return (
         <Link
-            href={props.url}
+            /*href={props.url}*/
+            href={`/work_experience/${props.slug}`}
             className="flex items-center gap-3 hover:bg-accent/50 transition-colors p-2 rounded"
         >
             <img
